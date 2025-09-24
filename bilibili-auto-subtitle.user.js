@@ -10,8 +10,8 @@
 // @run-at       document-end
 // @license      MIT
 // @supportURL   https://github.com/Apixus/bilibili-auto-subtitle/issues
-// @updateURL    https://github.com/Apixus/bilibili-auto-subtitle/raw/main/bilibili-auto-subtitle.user.js
-// @downloadURL  https://github.com/Apixus/bilibili-auto-subtitle/raw/main/bilibili-auto-subtitle.user.js
+// @updateURL    https://github.com/Apixus/bilibili-auto-subtitle/blob/main/bilibili-auto-subtitle.user.js
+// @downloadURL  https://github.com/Apixus/bilibili-auto-subtitle/blob/main/bilibili-auto-subtitle.user.js
 // ==/UserScript==
 
 (function () {
@@ -82,4 +82,5 @@
 
   /* 3. 首次进入视频页也自动开 */
   window.addEventListener('load', () => setTimeout(clickSubtitle, 3000));
+
 })();
