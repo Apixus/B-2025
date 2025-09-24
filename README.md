@@ -18,24 +18,36 @@
 
 ### 第二步：安装脚本
 
-点击这里安装: [安装脚本](https://github.com/apixus/)
+点击这里安装: [安装脚本](https://github.com/Apixus/bilibili-auto-subtitle/blob/main/bilibili-auto-subtitle.user.js)
 
 ## 使用方法
 
 1. 访问任意B站视频页面
-2. 按 `C` 键即可切换字幕显示
+2. 按 `C` 键即可开启字幕
 3. 切换分P时会自动开启字幕
+
+## 技术特性
+
+- 智能DOM查询，兼容多种播放器布局
+- 防抖处理，避免重复触发
+- 输入框检测，避免与输入冲突
 
 ## 更新日志
 
 ### v1.0 (2025-09-20)
 
 - 适配B站2025年新版播放器
+- 实现快捷键和自动开启功能
 
 ## 问题反馈
 
-如果遇到任何问题，请到 [Issues](https://github.com/apixus/bilibili-subtitle-helper/issues) 页面反馈。
+如果遇到任何问题，请到 [Issues](https://github.com/Apixus/bilibili-auto-subtitle/issues) 页面反馈。
+
+## 贡献
+
+欢迎提交 Pull Request 或提出建议！
 
 ## 许可证
 
 MIT License
+
